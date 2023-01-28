@@ -1,0 +1,56 @@
+.navbar {
+    position: fixed;
+    /* position: absolute; */
+    height: 4.5rem;
+    background: #1f1f1fe3;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 4.5rem;
+    padding-left: 0.5rem;
+}
+
+a {
+    color: white;
+}
+
+.username {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.username h4 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.username img {
+    width: 60px;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 2rem;
+    margin-right: 0.6rem;
+
+}
+
+li {
+    list-style: none;
+}
+
+.login {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.login:hover {
+    color: white;
+}
